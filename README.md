@@ -1,6 +1,8 @@
 # JSON GET and POST - iOS App
-This demo iOS app downloads JSON text content and an image from their respective URL’s and renders it in the app. Additionally, this app 
-collects iOS device details such as systemName, systemVersion etc., and POST’s the content in JSON format to a URI/L.
+This demo iOS app downloads JSON text content and an image from their respective URL’s and renders it in the app. Additionally, this app collects iOS device details such as systemName, systemVersion etc., and POST’s the content in JSON format to a URI/L.
+
+![GET and POST method](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/GET%20and%20POST%20method.png "GET and POST method")
+
   
 JSON content and the image is hosted online
 
