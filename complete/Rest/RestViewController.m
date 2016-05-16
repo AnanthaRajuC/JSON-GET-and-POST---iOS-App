@@ -56,16 +56,16 @@
              request.HTTPMethod = @"POST";
              
              // Set params to be sent to the server
-             NSString *params = [NSString stringWithFormat:@"[{\"systemName\":\"%@\",\"systemVersion\":\"%@\",\"description\":\"%@\",\"model\":\"%@\",\"country\":\"%@\",\"uniqueIdentifier\":\"%@\",\"locale\":\"%@\"}]",systemName,systemVersion,description,model,country,uniqueIdentifier,locale];
+             NSString *params = [NSString stringWithFormat:@"{\"systemName\":\"%@\",\"systemVersion\":\"%@\",\"description\":\"%@\",\"model\":\"%@\",\"country\":\"%@\",\"uniqueIdentifier\":\"%@\",\"locale\":\"%@\"}",systemName,systemVersion,description,model,country,uniqueIdentifier,locale];
              
              // Encoding type
              NSData *data = [params dataUsingEncoding:NSUTF8StringEncoding];
              
              // Add values and contenttype to the http header
              [request addValue:@"8bit" forHTTPHeaderField:@"Content-Transfer-Encoding"];
-             [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+             [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
              
-             // [request addValue:[NSString stringWithFormat:@"%lu", (unsigned long)[data length]] forHTTPHeaderField:@"Content-Length"];
+             [request addValue:[NSString stringWithFormat:@"%lu", (unsigned long)[data length]] forHTTPHeaderField:@"Content-Length"];
              [request setHTTPBody:data];
              
              // Send the request
