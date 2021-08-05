@@ -19,15 +19,15 @@ This demo iOS app downloads JSON text content and an image from their respective
   - uniqueIdentifier
   - locale
   
-  ![JSON POST](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/requestbin.PNG "JSON POST")
+  ![JSON POST](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/requestbin.PNG)
   
   ### To make sure that the URL of the image and the JSON content is not blocked by iOS, make sure the URL's are added to "Exception Domains" and "Allow Arbitrary Downloads" is marked "YES".
   
-    ![Project Settings](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/settings.PNG "Project Settings")
+    ![Project Settings](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/settings.PNG)
     
    ### The final output/App 
     
-    ![Output/App](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/iOS%20app%20Output.PNG "Output/App")
+    ![Final Output](https://github.com/AnanthaRajuC/JSON-GET-and-POST---iOS-App/blob/master/images/iOS%20app%20Output.PNG)
 
 License
 ----
